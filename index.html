@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+    <link rel="shortcut icon" href="Images/logo nho.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/example.css">
+    <link rel="stylesheet" href="css/easyzoom.css">
+    <link rel="stylesheet" href="css/example1.css">
+    <link rel="stylesheet" href="css/easyzoom1.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--Header-->
+    <div class="bg-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-4 top-left">
+                    <ul>
+                        <li><a href="#" class="fa-brands fa-facebook"></a></li>
+                        <li><a href="#" class="fa-brands fa-twitter"></a></li>
+                        <li><a href="#" class="fa-brands fa-instagram"></a></li>
+                        <li><a href="#" class="fa-brands fa-tiktok"></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-8 top-center">
+                    <p>Voucher Miễn Phí Ship Đến 100K</p>
+                </div>
+                <div class="col-lg-4 col-md-12 top-right">
+                    <ul>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Tin Tức</a></li>
+                        <li><a href="#">Liên Hệ</a></li>
+                        <li><a href="#">Hỏi Đáp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-menu">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Cửa Hàng
+                        </a>
+                        <div class="dropdown-menu menu-1">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-4 col-md-4">
+                                    <h6>Loại sản phẩm</h6>
+                                    <a href="#" class="dropdown-item"><p>Tất cả sản phẩm</p></a>
+                                    <a href="#" class="dropdown-item"><p>Sản phẩm mới <span class="sale">NEW</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Sản phẩm bán chạy <span class="hot">HOT</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Sản phẩm xu hướng <span class="sale">TRENDING</span></p></a>                                   
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-4">
+                                    <h6>Trang WooCommerce</h6>
+                                    <a href="#" class="dropdown-item"><p>Trang giỏ hàng <span class="sale">MUA NGAY</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Trang yêu thích</p></a>
+                                    <a href="#" class="dropdown-item"><p>Trang thanh toán</p></a>
+                                    <a href="#" class="dropdown-item"><p>Trang tài khoản</p></a>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-4">
+                                    <h6>Phụ kiện</h6>
+                                    <a href="#" class="dropdown-item"><p>Dây giày</p></a>
+                                    <a href="#" class="dropdown-item"><p>Lót giày <span class="sale">TRENDING</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Bộ dụng cụ vệ sinh giày </p></a>
+                                    <a href="#" class="dropdown-item"><p>Đế giày</p></a>                                  
+                                </div>
+                                <div class="col-xl-3">
+                                    <img src="images/img-drop.png" class="img-drop" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Phân Loại <span class="sale">SALE</span>
+                        </a>
+                        <div class="dropdown-menu menu-2">
+                            <div class="row">
+                                <div class="col-xl-4 col-md-4 col-12">
+                                    <h6>Giày nam</h6>
+                                    <a href="#" class="dropdown-item"><p>Giày thể thao</p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày chạy bộ <span class="sale">NEW</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày thời trang <span class="hot">HOT</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày da <span class="sale">TRENDING</span></p></a>                                   
+                                </div>
+                                <div class="col-xl-4 col-md-4 col-12">
+                                    <h6>Giày nữ</h6>
+                                    <a href="#" class="dropdown-item"><p>Giày tập gym</p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày Boots <span class="sale">SALE</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày thời trang <span class="hot">HOT</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày Scandals</p></a>
+                                </div>
+                                <div class="col-xl-4 col-md-4 col-12">
+                                    <h6>Tổng hợp các loại giày</h6>
+                                    <a href="#" class="dropdown-item"><p>Giày thể thao <span class="hot">HOT</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày da</p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày thời trang <span class="sale">TRENDING</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày Boots</p></a>      
+                                    <a href="#" class="dropdown-item"><p>Giày Casual - Dạo phố</p></a>                               
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Thương hiệu <span class="hot">HOT</span>
+                        </a>
+                        <div class="dropdown-menu menu-3">
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="#" class="dropdown-item"><p>Nike <span class="sale">TRENDING</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Adidas <span class="sale">NEW</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Puma</p></a>
+                                    <a href="#" class="dropdown-item"><p>New Balance </p></a>                                   
+                                </div>
+                                <div class="col-6">
+                                    <a href="#" class="dropdown-item"><p>Rebook</p></a>
+                                    <a href="#" class="dropdown-item"><p>Fila <span class="sale">SALE</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Skechers <span class="hot">HOT</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Vans <span class="hot">HOT</span></p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Top Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Khác</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav nav-icon">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fa-solid fa-search"></i>
+                        </a>
+                    </li>
+                     <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fa-regular fa-user"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Giỏ hàng-->
+    <div class="container mt-5 mb-3">
+        <h1 class="page-title text-center">
+            Giỏ hàng
+        </h1>
+    </div>
+    <div class="container cart">
+        <div class="row cart-title">
+            <div class="col-lg-4 col-8 cart-pr-title text-center">
+                <h5>Sản phẩm</h5>
+            </div>
+            <div class="col-lg-8 col-4 cart-info-title">
+                <div class="row">
+                    <div class="col-lg-4 cart-price-title">
+                        <h5>Đơn giá</h5>
+                    </div>
+                    <div class="col-lg-4 cart-qty-title">
+                        <h5>Số lượng</h5>
+                    </div>
+                    <div class="col-lg-4 cart-total-title">
+                        <h5>Thành tiền</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row cart-row">
+            <div class="col-lg-4 col-8 cart-name">
+                <div class="cart-img">
+                    <img src="images/pr-cart-1.png" alt="">
+                </div>
+                <div class="cart-info">
+                    <h5>Giày chạy bộ Adidas Samba OG mới nhất</h5>
+                    <p class="cart-color">Kích thước: <span>39</span></p>
+                    <p class="cart-size">Màu sắc: <span>Đỏ</span></p>
+                </div>
+            </div>
+            <div class="col-lg-8 col-4 cart-content">
+                <div class="row">
+                    <div class="col-lg-4 cart-price order-lg-1 order-3">
+                        <p>400.000 VNĐ</p>
+                    </div>
+                    <div class="col-lg-4 cart-qty order-2">
+                        <div class="qty-form d-flex">
+                            <button id="btn-minus"><i class="fa-solid fa-minus"></i></button>
+                            <input type="text" id="qty-value" value="1">
+                            <button id="btn-plus"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 cart-total order-lg-3 order-1">
+                        <p>600.000 VNĐ</p>
+                        <button><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row cart-row">
+            <div class="col-lg-4 col-8 cart-name">
+                <div class="cart-img">
+                    <img src="images/pr-cart-2.png" alt="">
+                </div>
+                <div class="cart-info">
+                    <h5>Samba OG New Edition-Đậm chất retro, chuẩn chất đường phố</h5>
+                    <p class="cart-color">Kích thước: <span>42</span></p>
+                    <p class="cart-size">Màu sắc: <span>Trắng</span></p>
+                </div>
+            </div>
+            <div class="col-lg-8 col-4 cart-content">
+                <div class="row">
+                    <div class="col-lg-4 cart-price order-lg-1 order-3">
+                        <p>400.000 VNĐ</p>
+                    </div>
+                    <div class="col-lg-4 cart-qty order-2">
+                        <div class="qty-form d-flex">
+                            <button id="btn-minus"><i class="fa-solid fa-minus"></i></button>
+                            <input type="text" id="qty-value" value="1">
+                            <button id="btn-plus"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 cart-total order-lg-3 order-1">
+                        <p>750.000 VNĐ</p>
+                        <button><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row cart-row">
+            <div class="col-lg-4 col-8 cart-name">
+                <div class="cart-img">
+                    <img src="images/pr-cart-3.png" alt="">
+                </div>
+                <div class="cart-info">
+                    <h5>Giày chạy bộ Adidas Samba OG mới nhất</h5>
+                    <p class="cart-color">Kích thước: <span>40</span></p>
+                    <p class="cart-size">Màu sắc: <span>Đen</span></p>
+                </div>
+            </div>
+            <div class="col-lg-8 col-4 cart-content">
+                <div class="row">
+                    <div class="col-lg-4 cart-price order-lg-1 order-3">
+                        <p>400.000 VNĐ</p>
+                    </div>
+                    <div class="col-lg-4 cart-qty order-2">
+                        <div class="qty-form d-flex">
+                            <button id="btn-minus"><i class="fa-solid fa-minus"></i></button>
+                            <input type="text" id="qty-value" value="1">
+                            <button id="btn-plus"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 cart-total order-lg-3 order-1">
+                        <p>800.000 VNĐ</p>
+                        <button><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row cart-row">
+            <div class="col-lg-4 col-8 cart-name">
+                <div class="cart-img">
+                    <img src="images/pr-cart-4.png" alt="">
+                </div>
+                <div class="cart-info">
+                    <h5>Giày chạy bộ Adidas Samba OG mới nhất</h5>
+                    <p class="cart-color">Kích thước: <span>45</span></p>
+                    <p class="cart-size">Màu sắc: <span>Xanh Dương</span></p>
+                </div>
+            </div>
+            <div class="col-lg-8 col-4 cart-content">
+                <div class="row">
+                    <div class="col-lg-4 cart-price order-lg-1 order-3">
+                        <p>400.000 VNĐ</p>
+                    </div>
+                    <div class="col-lg-4 cart-qty order-2">
+                        <div class="qty-form d-flex">
+                            <button id="btn-minus"><i class="fa-solid fa-minus"></i></button>
+                            <input type="text" id="qty-value" value="1">
+                            <button id="btn-plus"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 cart-total order-lg-3 order-1">
+                        <p>1.500.000 VNĐ</p>
+                        <button><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row cart-row">
+            <div class="col-lg-4 col-8 cart-name">
+                <div class="cart-img">
+                    <img src="images/pr-cart-5.png" alt="">
+                </div>
+                <div class="cart-info">
+                    <h5>Giày chạy bộ Adidas Samba OG mới nhất</h5>
+                    <p class="cart-color">Kích thước: <span>39</span></p>
+                    <p class="cart-size">Màu sắc: <span>trắng</span></p>
+                </div>
+            </div>
+            <div class="col-lg-8 col-4 cart-content">
+                <div class="row">
+                    <div class="col-lg-4 cart-price order-lg-1 order-3">
+                        <p>400.000 VNĐ</p>
+                    </div>
+                    <div class="col-lg-4 cart-qty order-2">
+                        <div class="qty-form d-flex">
+                            <button id="btn-minus"><i class="fa-solid fa-minus"></i></button>
+                            <input type="text" id="qty-value" value="1">
+                            <button id="btn-plus"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 cart-total order-lg-3 order-1">
+                        <p>500.000 VNĐ</p>
+                        <button><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row cart-footer mt-5">
+            <div class="col-lg-8 col-md-8">
+                <textarea name="" id="" placeholder="Ghi chú" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="col-lg-4 col-md-4 text-end">
+                <div class="row">
+                    <div class="col-6">
+                        <h5>Tổng cộng</h5>
+                    </div>
+                    <div class="col-6">
+                        <p>2.500.000</p>
+                    </div>
+                    <div class="col-12 mt-4 text-end">
+                        <button class="btn btn-danger">Thanh toán</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><button class="nav-link active" data-bs-target="#khuyenmai" data-bs-toggle="tab">Sản phẩm gợi ý</button></li>
+            <li class="nav-item"><button class="nav-link" data-bs-target="#banchay" data-bs-toggle="tab">Bán chạy</button></li>
+            <li class="nav-item"><button class="nav-link" data-bs-target="#moinhat" data-bs-toggle="tab">Mới nhất</button></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="khuyenmai"> 
+                <div class="row mt-2">
+                    <div class="col-12">
+                        <div class="owl-carousel owl-theme" id="features-1">
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-13b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-13f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">-15%</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-14b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-14f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">-15%</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-15b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-15f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">-15%</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-16b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-16f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">-15%</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-17b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-17f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">-15%</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-18b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-18f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">-15%</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="tab-pane" id="banchay"> 
+                <div class="row mt-2">
+                    <div class="col-12">
+                        <div class="owl-carousel owl-theme" id="features-2">
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-19b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-19f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">HOT</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-20b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-20f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">HOT</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-21b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-21f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">HOT</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-22b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-22f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">HOT</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-23b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-23f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">HOT</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-18b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-18f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">HOT</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="tab-pane" id="moinhat"> 
+                <div class="row mt-2">
+                    <div class="col-12">
+                        <div class="owl-carousel owl-theme" id="features-3">
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-9b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-9f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">NEW</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-7b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-7f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">NEW</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-6b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-6f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">NEW</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-15b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-15f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">NEW</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-17b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-17f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">NEW</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="#" class="card-sp">
+                                    <div class="product-img">
+                                        <img src="images/pr-11b.png" class="w-100 pr-img-1" alt="">
+                                        <img src="images/pr-11f.png" class="w-100 pr-img-2" alt="">
+                                        <div class="tag-sale-1">NEW</div>
+                                        <div class="icon-hvr-1 icon-hvr-rp">
+                                            <i class="fa-solid fa-heart bg-icon-1"></i>
+                                            <i class="fa-solid fa-eye bg-icon-2"></i>
+                                            <i class="fa-solid fa-bag-shopping bg-icon-3"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="pr-name mt-3">Giày chạy bộ Adidas</h6>
+                                    <div class="icon-star mt-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pr-price">
+                                        <p class="old-price">500.000 VNĐ</p>
+                                        <p class="new-price">400.000 VNĐ</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <div class="line-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-item">
+                        <h5>Về chúng tôi</h5>
+                        <div class="footer-content">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Đường số 8, Linh Xuân, Thủ Đức, Tp.Hồ Chí Minh</p>
+                        </div>
+                        <div class="footer-content">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <p>+8437 597 0877</p>
+                        </div>
+                        <div class="footer-content">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>dthe1412@gmail.com</p>
+                        </div>
+                        <div class="footer-content">
+                            <i class="fa-brands fa-tiktok"></i>
+                            <p>runwayshop.official</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-item">
+                        <h5>Chính sách</h5>
+                        <a href="#" class="cs"><p>Chính sách bảo hành.</p></a>
+                        <a href="#" class="cs"><p>Chính sách đổi trả.</p></a>
+                        <a href="#" class="cs"><p>Chính sách vận chuyển.</p></a>
+                        <a href="#" class="cs"><p>Chính sách hỗ trợ khách hàng.</p></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-item">
+                        <h5>Thông tin khác</h5>
+                        <a href="#" class="cs"><p>Hướng dẫn mua hàng.</p></a>
+                        <a href="#" class="cs"><p>Hướng dẫn thanh toán.</p></a>
+                        <a href="#" class="cs"><p>Hướng dẫn khiếu nại sản phẩm.</p></a>
+                        <a href="#" class="cs"><p>Ưu đãi sinh nhật.</p></a>
+                        <a href="#" class="cs"><p>Hướng dẫn đổi trả hàng.</p></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-item-r">
+                        <h5>Đăng ký ngay</h5>
+                        <p>Đăng ký tài khoản để nhận được Voucher giảm giá 15%.</p>
+                        <div class="sub-form">
+                            <div class="row">
+                                <div class="col-xl-10 col-lg-9 col-md-10 col-10">
+                                    <input type="text" placeholder="Email">
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-2 col-2">
+                                    <button><i class="fa-solid fa-paper-plane"></i></button>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <div class="row footer-bottom">
+                <div class="col-lg-4 col-md-4 footer-left">
+                    <img src="images/pay.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 footer-center">
+                    <div class="d-flex">
+                        <i class="fa-regular fa-copyright"></i>
+                        <p>2025 - Runway</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 footer-right">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="back-top"><i class="fa-solid fa-chevron-up"></i></a>
+<!--Khai báo Js-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/easyzoom.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+                    

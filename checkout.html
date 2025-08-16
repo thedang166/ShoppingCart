@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán</title>
+    <link rel="shortcut icon" href="Images/logo nho.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/example.css">
+    <link rel="stylesheet" href="css/easyzoom.css">
+    <link rel="stylesheet" href="css/example1.css">
+    <link rel="stylesheet" href="css/easyzoom1.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--Header-->
+    <div class="bg-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-4 top-left">
+                    <ul>
+                        <li><a href="#" class="fa-brands fa-facebook"></a></li>
+                        <li><a href="#" class="fa-brands fa-twitter"></a></li>
+                        <li><a href="#" class="fa-brands fa-instagram"></a></li>
+                        <li><a href="#" class="fa-brands fa-tiktok"></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-8 top-center">
+                    <p>Voucher Miễn Phí Ship Đến 100K</p>
+                </div>
+                <div class="col-lg-4 col-md-12 top-right">
+                    <ul>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Tin Tức</a></li>
+                        <li><a href="#">Liên Hệ</a></li>
+                        <li><a href="#">Hỏi Đáp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-menu">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Cửa Hàng
+                        </a>
+                        <div class="dropdown-menu menu-1">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-4 col-md-4">
+                                    <h6>Loại sản phẩm</h6>
+                                    <a href="#" class="dropdown-item"><p>Tất cả sản phẩm</p></a>
+                                    <a href="#" class="dropdown-item"><p>Sản phẩm mới <span class="sale">NEW</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Sản phẩm bán chạy <span class="hot">HOT</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Sản phẩm xu hướng <span class="sale">TRENDING</span></p></a>                                   
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-4">
+                                    <h6>Trang WooCommerce</h6>
+                                    <a href="#" class="dropdown-item"><p>Trang giỏ hàng <span class="sale">MUA NGAY</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Trang yêu thích</p></a>
+                                    <a href="#" class="dropdown-item"><p>Trang thanh toán</p></a>
+                                    <a href="#" class="dropdown-item"><p>Trang tài khoản</p></a>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-4">
+                                    <h6>Phụ kiện</h6>
+                                    <a href="#" class="dropdown-item"><p>Dây giày</p></a>
+                                    <a href="#" class="dropdown-item"><p>Lót giày <span class="sale">TRENDING</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Bộ dụng cụ vệ sinh giày </p></a>
+                                    <a href="#" class="dropdown-item"><p>Đế giày</p></a>                                  
+                                </div>
+                                <div class="col-xl-3">
+                                    <img src="images/img-drop.png" class="img-drop" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Phân Loại <span class="sale">SALE</span>
+                        </a>
+                        <div class="dropdown-menu menu-2">
+                            <div class="row">
+                                <div class="col-xl-4 col-md-4 col-12">
+                                    <h6>Giày nam</h6>
+                                    <a href="#" class="dropdown-item"><p>Giày thể thao</p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày chạy bộ <span class="sale">NEW</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày thời trang <span class="hot">HOT</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày da <span class="sale">TRENDING</span></p></a>                                   
+                                </div>
+                                <div class="col-xl-4 col-md-4 col-12">
+                                    <h6>Giày nữ</h6>
+                                    <a href="#" class="dropdown-item"><p>Giày tập gym</p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày Boots <span class="sale">SALE</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày thời trang <span class="hot">HOT</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày Scandals</p></a>
+                                </div>
+                                <div class="col-xl-4 col-md-4 col-12">
+                                    <h6>Tổng hợp các loại giày</h6>
+                                    <a href="#" class="dropdown-item"><p>Giày thể thao <span class="hot">HOT</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày da</p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày thời trang <span class="sale">TRENDING</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Giày Boots</p></a>      
+                                    <a href="#" class="dropdown-item"><p>Giày Casual - Dạo phố</p></a>                               
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Thương hiệu <span class="hot">HOT</span>
+                        </a>
+                        <div class="dropdown-menu menu-3">
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="#" class="dropdown-item"><p>Nike <span class="sale">TRENDING</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Adidas <span class="sale">NEW</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Puma</p></a>
+                                    <a href="#" class="dropdown-item"><p>New Balance </p></a>                                   
+                                </div>
+                                <div class="col-6">
+                                    <a href="#" class="dropdown-item"><p>Rebook</p></a>
+                                    <a href="#" class="dropdown-item"><p>Fila <span class="sale">SALE</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Skechers <span class="hot">HOT</span></p></a>
+                                    <a href="#" class="dropdown-item"><p>Vans <span class="hot">HOT</span></p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Top Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Khác</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav nav-icon">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fa-solid fa-search"></i>
+                        </a>
+                    </li>
+                     <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fa-regular fa-user"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Thanh toán-->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-xxl-6 col-lg-10 offset-xxl-3 offset-lg-1">
+                <div class="checkout-title row">
+                    <div class="col-6">
+                        <h5>Thanh toán</h5>
+                    </div>
+                    <div class="col-6 sign text-end">
+                        <a href="#">
+                            <button class="btn-sign">
+                                <i class="fa-solid fa-user"></i>Đăng nhập
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <input type="text" placeholder="Email" class="form-control my-3">
+                    <!-- <div class="check-email d-flex mb-3">
+                        <input type="checkbox"> 
+                        <p>Gửi thông báo về email của tôi.</p>
+                    </div> -->
+                    <div class="col-12 mb-3">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input">
+                            <label for="" class="form-check-label">Ghi nhớ email.</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="delivery row">
+                    <h6>Thông tin giao hàng</h6>
+                    <div class="dropdown my-3">
+                        <button class="btn btn-dark dropdown-toggle 0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tỉnh / Thành phố
+                        </button>
+                        <ul class="dropdown-menu w-100">
+                            <li><a class="dropdown-item" href="#">An Giang</a></li>
+                            <li><a class="dropdown-item" href="#">Bà Rịa - Vũng Tàu</a></li>
+                            <li><a class="dropdown-item" href="#">Bắc Giang</a></li>
+                            <li><a class="dropdown-item" href="#">Bắc Kạn</a></li>
+                            <li><a class="dropdown-item" href="#">Bạc Liêu</a></li>
+                            <li><a class="dropdown-item" href="#">Bắc Ninh</a></li>
+                            <li><a class="dropdown-item" href="#">Bến Tre</a></li>
+                            <li><a class="dropdown-item" href="#">Bình Định</a></li>
+                            <li><a class="dropdown-item" href="#">Bình Dương</a></li>
+                            <li><a class="dropdown-item" href="#">Bình Phước</a></li>
+                            <li><a class="dropdown-item" href="#">Bình Thuận</a></li>
+                            <li><a class="dropdown-item" href="#">Cà Mau</a></li>
+                            <li><a class="dropdown-item" href="#">Cần Thơ</a></li>
+                            <li><a class="dropdown-item" href="#">Cao Bằng</a></li>
+                            <li><a class="dropdown-item" href="#">Đà Nẵng</a></li>
+                            <li><a class="dropdown-item" href="#">Đắk Lắk</a></li>
+                            <li><a class="dropdown-item" href="#">Đắk Nông</a></li>
+                            <li><a class="dropdown-item" href="#">Điện Biên</a></li>
+                            <li><a class="dropdown-item" href="#">Đồng Nai</a></li>
+                            <li><a class="dropdown-item" href="#">Đồng Tháp</a></li>
+                            <li><a class="dropdown-item" href="#">Gia Lai</a></li>
+                            <li><a class="dropdown-item" href="#">Hà Giang</a></li>
+                            <li><a class="dropdown-item" href="#">Hà Nam</a></li>
+                            <li><a class="dropdown-item" href="#">Hà Nội</a></li>
+                            <li><a class="dropdown-item" href="#">Hà Tĩnh</a></li>
+                            <li><a class="dropdown-item" href="#">Hải Dương</a></li>
+                            <li><a class="dropdown-item" href="#">Hải Phòng</a></li>
+                            <li><a class="dropdown-item" href="#">Hậu Giang</a></li>
+                            <li><a class="dropdown-item" href="#">Hòa Bình</a></li>
+                            <li><a class="dropdown-item" href="#">Hưng Yên</a></li>
+                            <li><a class="dropdown-item" href="#">Khánh Hòa</a></li>
+                            <li><a class="dropdown-item" href="#">Kiên Giang</a></li>
+                            <li><a class="dropdown-item" href="#">Kon Tum</a></li>
+                            <li><a class="dropdown-item" href="#">Lai Châu</a></li>
+                            <li><a class="dropdown-item" href="#">Lâm Đồng</a></li>
+                            <li><a class="dropdown-item" href="#">Lạng Sơn</a></li>
+                            <li><a class="dropdown-item" href="#">Lào Cai</a></li>
+                            <li><a class="dropdown-item" href="#">Long An</a></li>
+                            <li><a class="dropdown-item" href="#">Nam Định</a></li>
+                            <li><a class="dropdown-item" href="#">Nghệ An</a></li>
+                            <li><a class="dropdown-item" href="#">Ninh Bình</a></li>
+                            <li><a class="dropdown-item" href="#">Ninh Thuận</a></li>
+                            <li><a class="dropdown-item" href="#">Phú Thọ</a></li>
+                            <li><a class="dropdown-item" href="#">Phú Yên</a></li>
+                            <li><a class="dropdown-item" href="#">Quảng Bình</a></li>
+                            <li><a class="dropdown-item" href="#">Quảng Nam</a></li>
+                            <li><a class="dropdown-item" href="#">Quảng Ngãi</a></li>
+                            <li><a class="dropdown-item" href="#">Quảng Ninh</a></li>
+                            <li><a class="dropdown-item" href="#">Quảng Trị</a></li>
+                            <li><a class="dropdown-item" href="#">Sóc Trăng</a></li>
+                            <li><a class="dropdown-item" href="#">Sơn La</a></li>
+                            <li><a class="dropdown-item" href="#">Tây Ninh</a></li>
+                            <li><a class="dropdown-item" href="#">Thái Bình</a></li>
+                            <li><a class="dropdown-item" href="#">Thái Nguyên</a></li>
+                            <li><a class="dropdown-item" href="#">Thanh Hóa</a></li>
+                            <li><a class="dropdown-item" href="#">Thừa Thiên Huế</a></li>
+                            <li><a class="dropdown-item" href="#">Tiền Giang</a></li>
+                            <li><a class="dropdown-item" href="#">TP. Hồ Chí Minh</a></li>
+                            <li><a class="dropdown-item" href="#">Trà Vinh</a></li>
+                            <li><a class="dropdown-item" href="#">Tuyên Quang</a></li>
+                             <li><a class="dropdown-item" href="#">Vĩnh Long</a></li>
+                            <li><a class="dropdown-item" href="#">Vĩnh Phúc</a></li>
+                            <li><a class="dropdown-item" href="#">Yên Bái</a></li>
+                        </ul>
+                        <div class="row">
+                            <div class="col-6 my-3">
+                                <input type="text" placeholder="Họ" class="form-control">
+                            </div>
+                            <div class="col-6 my-3">
+                                <input type="text" placeholder="Tên" class="form-control">
+                            </div>
+                            <div class="col-12 my-3">
+                                <input type="text" placeholder="Địa Chỉ" class="form-control">
+                            </div>
+                            <div class="col-12 my-3">
+                                <input type="text" placeholder="Email" class="form-control">
+                            </div>
+                            <div class="col-12 my-3">
+                                <input type="text" placeholder="Số điện thoại" class="form-control">
+                            </div>
+                            <!-- <div class="check-email d-flex">
+                                <input type="checkbox"> 
+                                <p>Xác nhận thông tin trên đều chính xác.</p>
+                            </div> -->
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label for="" class="form-check-label">Xác nhận thông tin trên đều chính xác.</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="method-payment my-3">
+                            <h6>Hình thức thanh toán</h6>
+                            <div class="accordion mt-3" id="accordionExample">
+                                <div class="check-method">
+                                    <input type="radio"  name="size" id="btnradio1">
+                                    <label for="btnradio1">Thanh toán khi nhận hàng</label>
+                                </div>
+                                <div class="accordion hn accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                <input type="radio" name="size" id="btnradio2">
+                                                <label for="btnradio2">Thanh toán Online</label>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample"> 
+                                            <div class="dropdown mt-3">
+                                                <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Ngân hàng
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#" style="white-space: wrap;">Vietcombank – Ngân hàng TMCP Ngoại thương Việt Nam</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="white-space: wrap;">VietinBank – Ngân hàng TMCP Công Thương Việt Nam</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="white-space: wrap;">BIDV – Ngân hàng TMCP Đầu tư và Phát triển Việt Nam</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="white-space: wrap;">Agribank – Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="white-space: wrap;">MB Bank – Ngân hàng Quân đội</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="white-space: wrap;">Techcombank – Ngân hàng Kỹ thương Việt Nam</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="white-space: wrap;">ACB – Ngân hàng Á Châu</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="white-space: wrap;">Sacombank – Ngân hàng Sài Gòn Thương Tín</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="white-space: wrap;">VPBank – Ngân hàng Việt Nam Thịnh Vượng</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="white-space: wrap;">TPBank – Ngân hàng Tiên Phong</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="white-space: wrap;">SHB – Ngân hàng Sài Gòn - Hà Nội</a></li>
+                                                    <li><a class="dropdown-item" href="#" style="white-space: wrap;">HDBank – Ngân hàng Phát triển TP.HCM</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="accordion-body">
+                                                <input type="text" placeholder="Nhập số tài khoản" class="form-control">
+                                                <div class="row">
+                                                    <div class="col-6 my-3">
+                                                        <input type="text" placeholder="Chi nhánh" class="form-control">
+                                                    </div>
+                                                    <div class="col-6 my-3">
+                                                        <input type="text" placeholder="Mã bảo mật" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <input type="text" placeholder="Tên chủ sở hữu (viết hoa không dấu)" class="form-control">
+                                                <div class="col-12 my-3">
+                                                    <div class="form-check">
+                                                        <input type="checkbox" class="form-check-input">
+                                                        <label for="" class="form-check-label">Tôi xin xác nhận thông tin trên hoàn toàn chính xác.</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <button class="btn btn-danger">Thanh toán</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!--Footer-->
+    <div class="footer">
+        <div class="line-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-item">
+                        <h5>Về chúng tôi</h5>
+                        <div class="footer-content">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Đường số 8, Linh Xuân, Thủ Đức, Tp.Hồ Chí Minh</p>
+                        </div>
+                        <div class="footer-content">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <p>+8437 597 0877</p>
+                        </div>
+                        <div class="footer-content">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>dthe1412@gmail.com</p>
+                        </div>
+                        <div class="footer-content">
+                            <i class="fa-brands fa-tiktok"></i>
+                            <p>runwayshop.official</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-item">
+                        <h5>Chính sách</h5>
+                        <a href="#" class="cs"><p>Chính sách bảo hành.</p></a>
+                        <a href="#" class="cs"><p>Chính sách đổi trả.</p></a>
+                        <a href="#" class="cs"><p>Chính sách vận chuyển.</p></a>
+                        <a href="#" class="cs"><p>Chính sách hỗ trợ khách hàng.</p></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-item">
+                        <h5>Thông tin khác</h5>
+                        <a href="#" class="cs"><p>Hướng dẫn mua hàng.</p></a>
+                        <a href="#" class="cs"><p>Hướng dẫn thanh toán.</p></a>
+                        <a href="#" class="cs"><p>Hướng dẫn khiếu nại sản phẩm.</p></a>
+                        <a href="#" class="cs"><p>Ưu đãi sinh nhật.</p></a>
+                        <a href="#" class="cs"><p>Hướng dẫn đổi trả hàng.</p></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-item-r">
+                        <h5>Đăng ký ngay</h5>
+                        <p>Đăng ký tài khoản để nhận được Voucher giảm giá 15%.</p>
+                        <div class="sub-form">
+                            <div class="row">
+                                <div class="col-xl-10 col-lg-9 col-md-10 col-10">
+                                    <input type="text" placeholder="Email">
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-2 col-2">
+                                    <button><i class="fa-solid fa-paper-plane"></i></button>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <div class="row footer-bottom">
+                <div class="col-lg-4 col-md-4 footer-left">
+                    <img src="images/pay.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 footer-center">
+                    <div class="d-flex">
+                        <i class="fa-regular fa-copyright"></i>
+                        <p>2025 - Runway</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 footer-right">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <a href="#" class="back-top"><i class="fa-solid fa-chevron-up"></i></a>
+<!--Khai báo Js-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/easyzoom.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+                    
